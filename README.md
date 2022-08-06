@@ -1,6 +1,9 @@
 # SocialLogin
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.5.
+## Tutoriales:
+* https://medium.com/@danilrabizo/google-authentication-in-the-angular-application-e86df69be58a
+* https://www.positronx.io/angular-google-social-login-tutorial-with-example/
 ## Configuracion en google developer console
 ![image](social-login.png)
 ## Development server
