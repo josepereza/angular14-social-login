@@ -1,0 +1,14 @@
+<p>mainpage works!</p>
+<div *ngIf="socialAuthServive.authState | async as socialUser">
+    <p>Hello, {{socialUser.name}}!</p>
+    <br>
+    <p>Your email: {{socialUser.email}}</p>
+    <br>
+    <button mat-raised-button (click)="logout()">Logout</button>
+  </div>
+
+  <div>
+    Hello  {{user.name }} , eres un cabroncete
+<br>
+    <button mat-raised-button (click)="logout()">Logout</button>
+  </div>
